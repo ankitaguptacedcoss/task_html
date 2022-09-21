@@ -295,7 +295,16 @@ label for ="cats">
       <input id="small" type="checkbox" name="personality">small
       </label>
     <button type="submit">Submit</button>
-    
+    <!--Use the value attribute with Radio Buttons and Checkboxes-->
+    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <label for="indoor"><input id="indoor" type="radio" value="indoor" name="indoor-outdoor"> Indoor</label>
+        <label for="outdoor"><input id="outdoor" type="radio" value="outdoor" name="indoor-outdoor"> Outdoor</label><br>
+        <label for="loving"><input id="loving" type="checkbox" value="loving" name="personality"> Loving</label>
+        <label for="lazy"><input id="lazy" type="checkbox" value="lazy" name="personality"> Lazy</label>
+        <label for="energetic"><input id="energetic" type="checkbox" value="energetic" name="personality"> Energetic</label><br>
+        <input type="text" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+      </form>
   
 </body>
 </html>
